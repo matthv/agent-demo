@@ -2,11 +2,11 @@
     "name": "matthv/datasource",
     "type": "library",
     "require": {
-        "galbar/jsonpath": "^2.1"
+        "galbar/jsonpath": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Matthv\\AgentDemo\\Datasource\\": ""
+            "Matthv\\Datasource\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +14,6 @@
             "name": "Matt",
             "email": "matthv@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

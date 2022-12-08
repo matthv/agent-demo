@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "233630e977169e0ed6a2c642e1daa0b0",
+    "content-hash": "fe4899d5716678b35fdc68af3a94814a",
     "packages": [
         {
             "name": "galbar/jsonpath",
-            "version": "2.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Galbar/JsonPath-PHP.git",
@@ -28,6 +28,7 @@
                 "sami/sami": ">=3.3.0",
                 "satooshi/php-coveralls": ">=1.0.1"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -60,8 +61,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "galbar/jsonpath": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
