@@ -1,0 +1,19 @@
+{
+    "name": "matthv/agent-demo",
+    "type": "library",
+    "require": {
+        "symfony/console": "6.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matthv\\AgentDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt",
+            "email": "matthv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
